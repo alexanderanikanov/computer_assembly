@@ -1,0 +1,48 @@
+.button	{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Roboto' 'sans-serif';
+	cursor: pointer;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.button:active {
+	transform: scale(0.9);
+}
+
+.button--small {
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+.button--big	{
+  width: 100%;
+	border-radius: 50px;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 16px 32px;
+}
+
+.button--primary {
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.button--secondary {
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+}
+
+.button--tertiary {
+  background: none;
+  border: 2px solid white;
+}
+
+.button--circle {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  border: none;
+}

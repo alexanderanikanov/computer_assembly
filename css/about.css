@@ -1,0 +1,41 @@
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 138px;
+  padding: 200px 16px;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-subtitle {
+  margin-bottom: 45px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.about-text {
+  line-height: 26px;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    gap: 32px;
+    padding: 100px 8px;
+    align-items: start;
+  }
+}
+
+@media (max-width: 885px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-info {
+    align-items: center;
+  }
+}

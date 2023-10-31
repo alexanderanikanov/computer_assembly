@@ -1,0 +1,41 @@
+.start-header {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.start-header-title {
+  font-size: 48px;
+  line-height: 68px;
+  font-weight: 700;
+}
+
+.start-header-subtitle {
+  color: #7F7F7F;
+  line-height: 26px;
+  margin-bottom: 80px;
+}
+
+.start-infographic {
+  display: flex;
+}
+
+.infographic__item {
+  min-height: 256px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.infographic__item p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #7F7F7F;
+}
+
+.infographic__item h2 {
+  font-size: 36px;
+  line-height: 52px;
+}

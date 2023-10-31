@@ -1,0 +1,19 @@
+.index-page-link {
+	display: flex;
+	justify-content: center;
+	margin: 10px 0;
+	width: 100%;
+	color: #fff;
+	cursor: pointer;
+	border: 2px solid;
+	border-radius: 50px;
+	font-family: 'Roboto' 'sans-serif';
+	font-weight: 700;
+	padding: 10px;
+	background: none;
+}
+
+.wraper {
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,69 @@
+.main-footer__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 16px;
+  color: #717171;
+}
+
+.main-screen__students, .main-screen__money {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.students-all__value, .students-other__value, .students-money__value {
+  color: #fff;
+  font-weight: 700;
+}
+
+.students-all, .students-other, .students-money, .progress-money {
+  display: flex; 
+  justify-content: space-between;
+  gap: 30px;
+} 
+
+.progress-bar {
+  background-color: #fff;
+ }
+ 
+ .progress-bar span {
+  display: block;
+  height: 6px;
+  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+ }  
+
+ .main-screen__money {
+  width: 50%;
+ }
+
+ @media (max-width: 1200px) {
+  .main-footer__item {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .main-screen__students {
+    width: 50%;
+  }
+
+  .main-footer__item .button {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-footer__item {
+    padding: 36px 16px;
+    justify-content: center;
+  }
+
+  .main-screen__students, .main-footer__item .button, .main-screen__money {
+    width: 100%;
+  }
+
+  .students-all, .students-other, .students-money, .progress-money {
+    gap: 0;
+    align-items: center;
+  }
+}

@@ -1,0 +1,41 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;  
+}
+
+html {
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	background-image: url(../img/bgc.png); 
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+s {
+	text-decoration-color: var(--tertiary-color);
+}
+
+.transition {
+	transition: .2s;
+}
+
+.logo {
+	cursor: pointer;
+}
+
+.wraper {
+	max-width: 1300px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.border {
+	border: 2px solid red;
+}
